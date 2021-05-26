@@ -11,11 +11,14 @@ if(n>=10 && n<=20) {
 else{
     cout<<"El numero ingresado es incorrecto!! \n";
     cout<<"Por favor ingrese un numero entre 10 y 20 \n";
+    system("PAUSE");
+    system("cls");//Limpiar pantalla
 }
-}while (n>=10 && n<=20);
-return (n);
+}while ((n<10)||(n>20));
+        return(n);
 }
+
 int  main(){
-    int n=0;
-    validar(n);
+    int n;
+    cout<<validar(n);
 }
