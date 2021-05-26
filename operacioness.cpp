@@ -9,10 +9,11 @@ int validar (int n){
     else{
     cout<<"Numero Invalido";}
 
-    }
+}
 
 int  main(){
     int n=0;
+    //
     validar(n);
 }
 
